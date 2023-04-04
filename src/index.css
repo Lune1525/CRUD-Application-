@@ -1,0 +1,138 @@
+.employee {
+  border-collapse: collapse;
+  width: 70%;
+  margin: auto;
+}
+
+.employee td, .employee th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.employee th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: black;
+  color: #F0E68C;
+}
+
+.employee tr:hover {
+  background-color: whitesmoke;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 10%;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+}
+
+.input-label {
+  display: flex;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 19px;
+  align-self: center;
+  height: 30px;
+}
+
+button {
+  background-color: black;
+  color: black;
+  font-weight: bold;
+  height: 35px;
+  width: 70px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 1px solid gray;
+}
+
+button:hover {
+  background-color: #4F4F4F;
+}
+
+.modal-container {
+  margin: auto;
+  position: absolute;
+  inset: 40px;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  width: 50%;
+  height: 30%;
+}
+
+.modal-header {
+  display: flex;
+  gap: 75px;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.modal-button {
+  display: flex;
+  gap: 20px;
+}
+
+.modal-input {
+  position: absolute;
+  inset: 40px;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-label {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 22px;
+  padding-bottom: 50px;
+}
+
+
+#delete {
+  background-color: #a30000;
+}
+
+
+#delete:hover {
+  background-color: red;
+}
+
+#edit {
+  background-color: #120ADA;
+}
+
+#edit:hover {
+  background-color: #1E90FF;
+}
+
+#modal-save {
+  background-color: #008B8B;
+  width: 150px;
+  height: 40px;
+}
+
+#modal-save:hover {
+  background-color: #48D1CC;
+}
+
+#modal-close {
+  background-color: #C0C0C0;
+  width: 150px;
+  height: 40px;
+}
+
+#modal-close:hover {
+  background-color: #DCDCDC;
+}
+
